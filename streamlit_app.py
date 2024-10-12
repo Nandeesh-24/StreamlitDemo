@@ -1,5 +1,8 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+# Title for the app
+st.title("Simple Prompt App")
 
-st.write('Hello world!')
+# Input text area for the prompt
+prompt = st.text_area("Enter your prompt:")
+
